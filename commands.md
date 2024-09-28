@@ -1,12 +1,17 @@
-# k8s-deployments-services-practice
+```
+1. wsl >> windows sublinux 
+
+powershell >> run as admin >> wsl --install 
+
+vtx support should be enable from BIOS
+
+2. powershell >> run as admin >> install chocolately 
+
+3. install docker desktop / website 
+
+4. powershell >> run as admin | minikube install  
 
 
-```
-git clone https://github.com/atulkamble/k8s-deployments-services-practice
-cd k8s-deployments-services-practice
-```
-
-```
 Open powershell as admin >> minikube installation
 
 Run Docker desktop in background >> minikube start 
@@ -20,7 +25,6 @@ touch - New-Item
 code .
 
 code name-of-file.yaml
-
 
 
 start single node cluster - 
@@ -105,4 +109,12 @@ minikube addons list
 
 minikube addons enable metrics-server
 
+
+kubectl delete pods/deployments/services
+
+kubectl delete deployments --all
+
+kubectl delete deployment deploymenty-id
+
 ```
+
