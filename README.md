@@ -112,3 +112,30 @@ This setup abstracts the underlying Pod details, allowing you to focus on deploy
   - `ExternalName`: Maps the Service to the contents of the `externalName` field (e.g., `example.com`).
 
 By understanding and utilizing Deployments and Services, you can effectively manage and scale applications in a Kubernetes cluster.
+
+To delete all deployments and services in a Kubernetes cluster, you can use the following commands:
+
+1. Delete Deployments:
+```bash
+kubectl delete deployment --all
+```
+
+2. Delete Services:
+```bash
+kubectl delete service --all
+```
+
+3. Delete pods:
+```bash
+kubectl delete pod --all
+```
+
+These commands will delete all deployments and services in the current Kubernetes namespace. If you want to delete resources across all namespaces, you can use the `--all-namespaces` flag:
+
+```bash
+kubectl delete deployment --all --all-namespaces
+kubectl delete service --all --all-namespaces
+```
+
+Please be cautious when running these commands as they will remove all deployments and services, potentially impacting your running applications. Make sure to confirm before proceeding with the deletion.
+
