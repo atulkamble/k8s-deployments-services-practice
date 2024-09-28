@@ -1,5 +1,10 @@
 In Kubernetes, deployments and services are fundamental concepts used to manage and expose your application. Below is a basic overview of each, including syntax and explanations.
 
+```
+git clone https://github.com/atulkamble/k8s-deployments-services-practice
+cd k8s-deployments-services-practice
+```
+
 ### Deployment
 
 A Deployment in Kubernetes ensures that a specified number of instances of an application (Pods) are running at all times. Deployments manage the creation and updates of these Pods.
