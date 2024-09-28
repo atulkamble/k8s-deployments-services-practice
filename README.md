@@ -1,5 +1,11 @@
 # k8s-deployments-services-practice
 
+
+```
+git clone https://github.com/atulkamble/k8s-deployments-services-practice
+cd k8s-deployments-services-practice
+```
+
 ```
 Open powershell as admin >> minikube installation
 
