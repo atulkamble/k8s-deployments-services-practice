@@ -1,5 +1,5 @@
 ec2 - t2.medium - amazon linux - ssh 
-
+```
 // EC2 instance type: t2 medium
 
 sudo yum update -y
@@ -37,5 +37,5 @@ ssh -L 9999:127.0.0.1:44157 -i minikube.pem ec2-user@ec2-184-73-142-125.compute-
 
 // dashboard
 http://127.0.0.1:9999/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/
-
+```
 
