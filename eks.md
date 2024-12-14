@@ -1,3 +1,4 @@
+```
 git clone https://github.com/atulkamble/k8s-deployments-services-practice.git
 kubectl apply -f deployment.yaml 
 kubectl get deployments
@@ -32,7 +33,7 @@ EC2
 		}
 	]
 }
-
+```
 
 
 
